@@ -1,6 +1,37 @@
+body {
+  background-color: darkgrey;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+}
+
 .intro {
   color: blue;
+  display: block;
+  margin: auto;
+  width: 80%;
 }
 .span {
   color: red ;
+}
+
+p {
+  border: 4px solid darkolivegreen;
+  box-sizing: border-box;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  width: 75%;
+  height: 75%;
+}
+
+.title h1 {
+  color: black;
 }
