@@ -31,6 +31,26 @@ img {
   width: 80%;
 }
 
+.sidebar {
+  background-color: rgba(128, 128, 128, 0.685);
+  border: 4px solid rgb(68, 47, 107);
+  color: red;
+  font-size: 20px;
+  height: 300px;
+  float: right;
+  text-align: left;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.sidebar li {
+  padding: 5px 4px;
+}
+
 .span {
   color: red ;
 }
