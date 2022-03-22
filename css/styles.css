@@ -73,3 +73,10 @@ p {
 .title h1 {
   color: rgb(0, 0, 0);
 }
+#light {
+  background-color: rgb(223, 183, 241);
+}
+
+#dark {
+  background-color: rgb(59, 3, 65);
+}
