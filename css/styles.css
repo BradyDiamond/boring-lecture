@@ -87,3 +87,18 @@ p {
   color: aliceblue;
   background-color: rgb(59, 3, 65);
 }
+.clickedparlight {
+  transform: scale(1.1);
+  border: 10px solid rgb(224, 17, 27);
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  background-color: rgb(223, 183, 241);
+}
+
+.clickedpardark {
+  transform: scale(1.1);
+  border: 10px solid rgb(0, 51, 15);
+  box-sizing: border-box;
+  color: aliceblue;
+  background-color: rgb(59, 3, 65);
+}
