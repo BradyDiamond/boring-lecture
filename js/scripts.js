@@ -1,14 +1,21 @@
 $(document).ready(function() {
-  $("button#light").click(function() {
-    $("body").removeClass();
-    $("body").addClass("light");
-    $("intro").addClass("light");
+  $("button.light").click(function() {
+    $("p").removeClass();
+    $("p").addClass("light");
   });
 
-  $("button#dark").click(function() {
-    $("body").removeClass();
-    $("body").addClass("dark");
-    $("intro").addClass("dark");
+  $("button.dark").click(function() {
+    $("p").removeClass();
+    $("p").addClass("dark");
   });
+
+  $("p.light").click(function() {
+    $("p").removeClass();
+    $("p").addClass("light");
   });
-});
+
+  $("p.dark").click(function() {
+    $("p").removeClass();
+    $("p").addClass("dark");
+  });
+});  
